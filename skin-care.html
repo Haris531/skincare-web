@@ -1,0 +1,526 @@
+<html>
+    <head>
+        <title>skin care</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <style>
+            body{
+                padding: 0%;
+                margin: 0%;
+              
+            }
+            .container{
+                width: 100%;
+                height: 100%;
+                background-image: url(main-skincare.jpg);
+                background-size: cover;
+            }   
+            .navbar{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: white;
+                height: 70px;
+                width: 100%;
+            }
+            .navbar a{
+                text-decoration: none;
+                font-family: arial;
+                font-size: medium;
+                font-weight: 200;
+                color: black;
+            }
+            .navbar-left{
+                width: 40%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .navbar-right{
+               width: 15%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .main-heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 160px;
+            }
+            .main-heading h5{
+                font-family: arial;
+                font-size: small;
+                font-weight: 100;      
+            }
+            .main-heading h1{
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;      
+            }
+            .main-heading button{
+                width: 150px;
+                height: 35px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .main-heading-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main-heading-1 h1{
+                font-family: arial;
+                font-size: 45px;
+                font-weight: 200;
+                margin-top: 40px;
+            }
+            .container2{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                align-items: center;
+            }
+            .container2-1 img{
+                height: 450px;
+                width: 700px;
+            }
+
+            .container2-2 ul{
+               margin-right: 150px;
+            }
+            .container2-2 ul h4 span{
+                background-color: lightpink;
+            }
+            .container2-2 ul h2{
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;   
+            }
+            .container2-2 ul h5{
+                font-family: arial;
+                font-size: small;
+                font-weight: 200;
+            }
+            .container2-2 ul button{
+                width: 150px;
+                height: 35px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .container3{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                align-items: center;
+                margin-top: 100px;
+            }
+            .container3-1 ul{
+              margin-right: 50px;
+            }
+            .container3-1 ul h4 span{
+                background-color: lightpink;
+            }
+            .container3-1 ul h2{
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;   
+            }
+            .container3-1 ul h5{
+                font-family: arial;
+                font-size: small;
+                font-weight: 200;
+            }
+            .container3-1 ul button{
+                width: 150px;
+                height: 35px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .container3-2 img{
+                height: 450px;
+                width: 700px;
+            }
+            .container4{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-around;
+                align-items: center;
+                margin-top: 70px;
+                background-color: whitesmoke;
+            }
+            .container4-1 img{
+                height: 400px;
+                width: 600px;
+            }
+            .container4-2 h1{
+                font-family: arial;
+                font-size: 45px;
+                font-weight: 300;
+            }
+            .container4-2 h3{
+                font-family: arial;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            .container4-2 button{
+                width: 150px;
+                height: 40px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .container5{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .container5 h4{
+                font-family: arial;
+                font-size: small;
+                font-weight: 200;
+            }
+            .container5 h1{
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;
+            }
+            .container6{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;           
+            }
+            .container6-1 h3{
+                font-family: arial;
+                font-size: medium;
+                font-weight: 200;
+                margin-right: 30px;
+                padding-top: 20px;
+            }
+            .container6-2 img{
+                height: 500px;
+            }
+            .container6-3 h3{
+                font-family: arial;
+                font-size: medium;
+                font-weight: 200;
+                margin-left: 30px;
+                padding-top: 20px;
+            }
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+         .btn button{
+                width: 150px;
+                height: 40px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .container7{
+                height: 85vh;
+                background-color: whitesmoke;
+                margin-top: 30px;
+            }
+            .container7 img{
+                width: 300px;
+                height: 50vh;
+            }
+            .container7 h4{
+                font-family: arial;
+                font-size: medium;
+                font-weight: 200;   
+            }
+            .container7 button{
+                width: 150px;
+                height: 40px;
+                background-color: transparent;
+                border: 1px solid black;
+            }
+            .container7-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container7-2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .container8{
+                height: 40vh;
+                background-color: antiquewhite;
+            }
+            .container8-1 h1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;
+                padding-top: 30px;
+            }
+            .container8-2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .container8-2 h3{
+                font-family: arial;
+                font-size: larger;
+                font-weight: 200;
+            }
+            .container8-2 h4{
+                font-family: arial;
+                font-size: small;
+                font-weight: 200;
+            }
+            .container9{
+                margin-top: 30px;  
+            }
+            .container9-0{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .container9-0 h4{
+                font-family: arial;
+                font-size: large;
+                font-weight: 200;
+            }
+            .container9-0 h1{
+                font-family: arial;
+                font-size: 40px;
+                font-weight: 200;
+            }
+            .container9-1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                background-color: whitesmoke;
+            }
+            .container9-1-1 h3{
+               font-family: arial;
+               font-weight: 40px;
+               font-weight: 200;
+            }
+            .container9-1-2 img{    
+               height: 400px;
+               width: 500px;
+            }
+            .footer{
+                height: 60px;
+                background-color: antiquewhite;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 20px;
+            }
+            .footer input{
+                height: 30px;
+                width: 180px;
+            }
+            .footer i{
+                background-color: blue;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="navbar">
+                <div class="navbar-left">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">How It Works</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#">Log In</a>
+                <h3>|</h3>
+                <a href="#">Shopping Bag(0)</a>
+            </div>
+            </div>
+
+            <div class="main-heading">
+               <h5>YOUR SKIN'S HERO</h5>
+                <h1>The Ultimate In Anti-Aging</h1>
+                <button>View Products</button>
+            </div>
+        </div>
+        <div class="main-heading-1"><h1>Take Years Off Your Skin!</h1></div>
+
+        <div class="container2">
+            <div class="container2-1">
+                <img src="mainnn.jpg" alt="">
+            </div>
+            <div class="container2-2">
+              <ul>
+               <h4><span>The day term serum</span> </h4>  
+                 <h2>Intensive <br>Radiance Serum</h2>
+                
+                    <h5>Reduces deep wrinkles around the eyes</h5>
+                    <h5>Decreases the appearence of fine lines</h5>
+                    <h5>Brighten the skin</h5>
+                    <h5>Stimulate collagen production $ strighnten skin's tissues</h5>
+                    <h5>Stimulate the anti-aging genes</h5>
+                 <button>View More</button>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="container3-1">
+                <ul>
+                <h4><span>The night term serum</span></h4>
+                <h2>Intensive Resurface <br>Surfacing Serum</h2>
+                <h5>Repairs the skin overnight</h5>
+                <h5>Reduces deep wrinkles $ fine lines around eyes</h5>
+                <h5>Moisturizes the skin</h5>
+                <h5>Contain triple Vitamin C complex to strenghten collagen</h5>
+                <h5>Stimulate the anti-aging genes</h5>
+                <button>View More</button>
+            </ul>
+            </div>
+            <div class="container3-2">
+                <img src="mainn2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="container4">
+            <div class="container4-1">
+                <img src="Mainn3.webp" alt="">
+            </div>
+            <div class="container4-2">
+                <h1>Essential Skincare</h1>
+                <h3>Skin care plays an important role in your overall health <br> & appearance.
+                    After all, your skin is the largest organ <br> of your body. Skin care 
+                    primarily focuses on the <br> delicate areas on your face, neck, and 
+                    chest, with <br> regimens focused on cleansing, moisturizing, and 
+                    treating <br> specific conditions.Skin care keeps the skin fresh and <br> 
+                    moisturize.The night time serum helps repair wrinkles and <br> finelines.
+                    Our products stimulate Anti-Aging gene i.e klotho </h3>
+               <button>How It Works</button>        
+            </div>
+        </div>
+
+        <div class="container5">
+            <h4>DID YOU KNOW?</h4>
+            <h1>10 Amazing Facts Of Our Products</h1>
+        </div>
+        
+       <div class="container6">
+        <div class="container6-1">
+            <h3>Helps provide <br> moisture to the skin.</h3>
+            <h3>Helps repair damage <br> to the skin.</h3>
+            <h3>Helps improve <br> the skin by <br> making it firmer.</h3>
+            <h3>Helps stop premature <br> aging and wrinkling.</h3>
+            <h3>Helps fade dark <br>spots and brighten <br> the skin.</h3>
+        </div>
+        <div class="container6-2">
+            <img src="mainn4.jpg" alt="">
+        </div>
+        <div class="container6-3">
+            <h3>Helps even skin tone <br> and improve skin <br> discoloration.</h3>
+            <h3>Helps reduce fine <br> lines & wrinkles.</h3>
+            <h3>Helps reducing skin <br> pegmentation.</h3>
+            <h3>Helps improve skin <br>hydration.</h3>
+            <h3>Helps leave the skin <br> soft,smooth and <br>supple.</h3>
+        </div>
+       </div>
+       <div class="btn"><button>How IT works</button></div>
+
+       <div class="container7">
+       <div class="container7-1"><h1>Skincare Bestsellers</h1></div> 
+        <div class="container7-2">
+        <div class="container7-2-1">
+            <img src="mainn5.png" alt="">
+            <h4>Intenza Radiance Daytime serum <br>40.99$</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="container7-2-1">
+            <img src="mainn6.png" alt="">
+            <h4>Intenza Resurfacing Nighttime serum <br>40.99$</h4>
+            <button>Buy Now</button>
+        </div>
+        <div class="container7-2-3">
+            <img src="mainn7.avif" alt="">
+            <h4>Intenza Anti-Aging Duo <br>40.99$</h4>
+            <button>Buy Now</button>
+        </div>
+    </div>
+       </div>
+
+       <div class="container8">
+        <div class="container8-1"><h1>Good for you,good for your wallet</h1></div>
+        <div class="container8-2">
+            <div class="container8-2-1">
+                <i class='bx bxs-car'></i>
+                <h3>Free Delivery</h3>
+                <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.In <br>
+                     Accusantium suscipit perfere.</h4>
+            </div>
+            <div class="container8-2-2">
+                <i class='bx bxs-heart'></i>
+                <h3>100% Guarantee</h3>
+                <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.In <br>
+                     Accusantium suscipit perfere.</h4>
+            </div>
+            <div class="container8-2-3">
+                <i class='bx bxs-shopping-bags'></i>
+                <h3>Secure Shopping</h3>
+                <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.In <br>
+                     Accusantium suscipit perfere.</h4>
+            </div>
+            <div class="container8-2-4">
+                <i class='bx bxs-watch'></i>
+                <h3>30 Day Money back Guarante</h3>
+                <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.In <br>
+                     Accusantium suscipit perfere.</h4>
+            </div>
+        </div>
+       </div>
+
+       <div class="container9">
+        <div class="container9-0">
+        <h4>WHY THEY ALL LOVE US</h4>
+        <h1>REAL PEOPLE,REAL RESULTS</h1>
+    </div>
+        <div class="container9-1">
+            <div class="container9-1-1">
+               <h3>"This stuff makes my skin fell so healthy, <br>and I sincerely believe it's making <br>
+                improvements in the qualityof my skin. <br>Love it! "</h3> 
+            </div>
+            <div class="container9-1-2">
+                <img src="mainn8.jpg" alt="">
+            </div>
+        </div>
+       </div>
+
+       <div class="footer">
+        <h3>Join our mailing list! $ become a member</h3>
+        <input type="text" placeholder="Enter your email">
+        <h3>Stay conneacted with us</h3>
+        <i class='bx bxl-facebook-circle'></i>
+        <i class='bx bxl-instagram-alt'></i>
+        <i class='bx bxl-twitter'></i>
+       </div>
+     
+        
+    </body>
+</html>
